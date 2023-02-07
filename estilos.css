@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(177, 177, 224);
+}
+
+header{
+    text-align: center;
+    width: 100%;
+    height: 13%;
+}
+
+main{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+section{
+    width: 100%;
+    height: 100%;
+}
+
+.seccion1{
+    width: 80%;
+    height: 100%;
+    background-color: rgb(115, 182, 226);
+    border-radius: 10px;
+    margin-left: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+.area{
+    width: 90%;
+    height: 60%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    resize: none;
+    font-size: 25px;
+}
+
+.icono{
+    padding-left: 5%;
+    padding-top: 4%;
+}
+
+.condicional{
+    padding-left: 60px;
+}    
+
+.btn-encriptar{
+}
+
+.btn-desencriptar{
+
+}
+
+.btn-encriptar, .btn-desencriptar{
+    width: 40%;
+    height: 60px;
+    border-radius: 20px;
+    border-color: aqua;
+    color: black;
+}
+
+.contenedor-botones{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.seccion2{
+    width: 80%;
+    height: 100%;
+    background-color: bisque;
+    border-radius: 10px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.contenedor-muneco{
+    height: 80%;
+    padding: 10%;
+    X: 1032px;
+    Y: 283px;
+    W: 336px;
+    H: 304px;
+    X constraint: Left;
+    Y constraint: Top;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.contenedor-h3{
+    Font family: Inter;
+    Font style: Bold;
+    Font size: 24px;
+    Line height: 29px;
+    Line height: 120%;
+    Align: Center;
+    Vertical align: Top;
+    text-align: center;
+}
+
+.contenedor-parrafo{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+
+.contenedor-resultado{
+    width: 100%;
+    height: 87%;
+    padding: 30px;
+}
+
+.texto-resultado{
+    width: 85%;
+    height: 81%;
+    display: block;
+    margin-left: 3%;
+    margin-top: -10px;
+    resize: none;
+    font-size: 25px;
+}
+
+.contenedor-copiar{
+    width: 20%;
+    height: 100%;
+}
+
+.btn-copiar{
+    width: 200%;
+    height: 60px;
+    border-radius: 20px;
+    border-color: aqua;
+    color: black;
+    margin-top: -65%;
+    margin-left: 155%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+
+footer{
+    background-color: rgb(178, 178, 243);
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+.ocultar{
+    display: none;
+}
